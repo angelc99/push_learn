@@ -1,15 +1,17 @@
 package tes;
 
+import java.math.BigDecimal;
+
 public class phone {
 	private String phoneName;
-	private int price;
+	private  BigDecimal price;
 	
 	public void setPhoneName(String phoneName)
 	{
 		this.phoneName=phoneName;
 	}
 	
-	public void setPrice(int price)
+	public void setPrice(BigDecimal price)
 	{
 		this.price=price;
 	}
