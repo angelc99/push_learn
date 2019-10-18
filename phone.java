@@ -22,7 +22,7 @@ public class phone {
 	}
 	
 
-	public int setPrice()
+	public BigDecimal setPrice()
 	{
 		return price;
 	}
